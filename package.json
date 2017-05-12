@@ -1,7 +1,7 @@
 {
   "name": "unordered-array-match",
   "version": "1.0.0",
-  "description": "Shallow check two arrays contain the same items in no specific order",
+  "description": "Shallow check two arrays contain the same items in any order",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,6 +17,7 @@
     "match"
   ],
   "author": "Jacob Ward",
+  "email": "jacob@riino.co.uk",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/jacobwarduk/unordered-array-match/issues"
