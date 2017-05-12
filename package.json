@@ -1,0 +1,25 @@
+{
+  "name": "unordered-array-match",
+  "version": "1.0.0",
+  "description": "Shallow check two arrays contain the same items in no specific order",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacobwarduk/unordered-array-match.git"
+  },
+  "keywords": [
+    "unordered",
+    "array",
+    "check",
+    "match"
+  ],
+  "author": "Jacob Ward",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jacobwarduk/unordered-array-match/issues"
+  },
+  "homepage": "https://github.com/jacobwarduk/unordered-array-match#readme"
+}
