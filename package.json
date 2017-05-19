@@ -4,7 +4,7 @@
   "description": "Shallow check two arrays contain the same items in any order",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/jasmine-node/bin/jasmine-node --color --verbose --noStack spec && exit 0"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/jacobwarduk/unordered-array-match/issues"
   },
-  "homepage": "https://github.com/jacobwarduk/unordered-array-match#readme"
+  "homepage": "https://github.com/jacobwarduk/unordered-array-match#readme",
+  "devDependencies": {
+    "jasmine-node": "^1.14.5"
+  }
 }
