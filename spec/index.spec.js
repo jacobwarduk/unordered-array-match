@@ -1,4 +1,4 @@
-/* global describe expect it */
+/* global describe it expect */
 'use strict';
 
 const unorderedArrayMatch = require('../index');

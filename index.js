@@ -5,7 +5,9 @@ function unorderedArrayMatch(arr1, arr2) {
 		return false;
 	}
 
-	return arr1.every(item => arr2.indexOf(item) !== -1);
+	return arr1.every(item => {
+		return arr2.indexOf(item) !== -1;
+	});
 }
 
 module.exports = unorderedArrayMatch;
