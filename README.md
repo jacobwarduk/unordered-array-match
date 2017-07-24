@@ -12,7 +12,7 @@ npm install --save unordered-array-match
 **Usage**
 
 ```javascript
-let unorderedArrayMatch = require('unordered-array-match');
+const unorderedArrayMatch = require('unordered-array-match');
 
 unorderedArrayMatch(['a', 23, 'pineapple'], ['pineapple', 'a', 23]);  // true
 unorderedArrayMatch(['a', 'b', 'c', 1, 2, 3], [3, 'c', 2, 'b', 1, 'a']);  // true
