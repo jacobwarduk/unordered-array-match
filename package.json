@@ -1,10 +1,11 @@
 {
   "name": "unordered-array-match",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "Shallow check two arrays contain the same items in any order",
   "main": "index.js",
   "scripts": {
-    "test": "xo && jasmine && exit 0"
+    "test": "xo && jasmine",
+    "cover": "istanbul cover node_modules/jasmine/bin/jasmine.js"
   },
   "repository": {
     "type": "git",
